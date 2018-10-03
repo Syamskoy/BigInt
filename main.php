@@ -1,0 +1,11 @@
+<?php
+require_once('./BigInt.php');
+use SkyEngTest\BigInt;
+
+$number = new BigInt("99999999999999999999999999999999999999999999999999999999999999999999");
+$number2 = new BigInt("2347248732984783284798324236578346587634856837465874365784637564638569094");
+$number3 = "123123123123123123453654654645";
+$number->add($number3);
+echo $number . PHP_EOL;
+$number->add($number2);
+echo $number . PHP_EOL;
